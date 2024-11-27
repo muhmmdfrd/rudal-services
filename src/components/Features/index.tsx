@@ -1,3 +1,4 @@
+import { Feature } from "@/types/feature";
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
@@ -8,8 +9,8 @@ const Features = () => {
       <div className="container">
         <SectionTitle
           subtitle="Features"
-          title="Main Features Of Play"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Produk Kami"
+          paragraph="Bergerak di bidang jasa dan didirikan oleh mitra yang profesional dan berpengalaman,yang lebih mengutamakan keterampilan dan pelayanan."
         />
 
         <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">

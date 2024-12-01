@@ -12,25 +12,39 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Brilliant Toolkit to Build Next.js SaaS Websites.
+                  Visi & Misi
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel discussions and roundtables led by subject
-                  matter experts.
+                  Menjadi perusahaan jasa yang paling diandalkan di bidang
+                  perawatan dan instalasi, dengan layanan yang cepat,
+                  berkualitas, dan ramah. Semua itu kami implementasikan ke
+                  dalam misi:
                   <br /> <br />
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel.
+                  <ul>
+                    <li>
+                      Menyediakan layanan yang profesional dan berkualitas
+                      tinggi di bidang perawatan AC, instalasi CCTV, listrik,
+                      dan GPS.
+                    </li>
+                    <br />
+                    <li>
+                      Membangun hubungan jangka panjang dengan pelanggan melalui
+                      layanan yang ramah, responsif, dan terpercaya.
+                    </li>
+                    <br />
+                    <li>
+                      Selalu berinovasi dan beradaptasi dengan perkembangan
+                      teknologi untuk meningkatkan kualitas layanan.
+                    </li>
+                  </ul>
                 </p>
 
-                <a
+                {/* <a
                   href="/#"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary/90"
                 >
                   Know More
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -62,7 +76,7 @@ const About = () => {
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                     <div>
                       <span className="block text-5xl font-extrabold text-white">
-                        09
+                        01
                       </span>
                       <span className="block text-base font-semibold text-white">
                         We have

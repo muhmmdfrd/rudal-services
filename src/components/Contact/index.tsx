@@ -9,10 +9,10 @@ const Contact = () => {
             <div className="ud-contact-content-wrapper">
               <div className="ud-contact-title mb-12 lg:mb-[150px]">
                 <span className="mb-6 block text-base font-medium text-dark dark:text-white">
-                  CONTACT US
+                  HUBUNGI KAMI
                 </span>
                 <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  Let&#39;s talk about your problem.
+                  Mari diskusikan kebutuhan Anda.
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -30,10 +30,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      Our Location
+                      Lokasi Kami
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
+                      Jl. H. Ahmad Nado III RT 007/001 No. 20, Grogol, Kec.
+                      Limo, Kota Depok, Jawa Barat 16514
                     </p>
                   </div>
                 </div>
@@ -50,13 +51,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      How Can We Help?
+                      Ada yang bisa kami bantu?
                     </h3>
-                    <p className="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
-                    </p>
+
                     <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                      contact@yourdomain.com
+                      dirudal@rudalservices.com
                     </p>
                   </div>
                 </div>
@@ -70,7 +69,7 @@ const Contact = () => {
               "
             >
               <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
-                Send us a Message
+                Kirimi Kami Pesan
               </h3>
               <form>
                 <div className="mb-[22px]">
@@ -78,12 +77,12 @@ const Contact = () => {
                     htmlFor="fullName"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Full Name*
+                    Nama*
                   </label>
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Adam Gelius"
+                    placeholder="John Doe"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -97,7 +96,7 @@ const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="example@yourmail.com"
+                    placeholder="example@gmail.com"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -106,12 +105,12 @@ const Contact = () => {
                     htmlFor="phone"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Phone*
+                    Telepon*
                   </label>
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+885 1254 5211 552"
+                    placeholder="0821xxxxxxxx"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -120,12 +119,12 @@ const Contact = () => {
                     htmlFor="message"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Message*
+                    Pesan*
                   </label>
                   <textarea
                     name="message"
                     rows={1}
-                    placeholder="type your message here"
+                    placeholder="Pesan Anda"
                     className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   ></textarea>
                 </div>

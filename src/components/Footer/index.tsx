@@ -11,11 +11,11 @@ const Footer = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
-              <Link href="/" className="mb-6 inline-block max-w-[160px]">
+              <Link href="/" className="mb-2 inline-block max-w-[260px]">
                 <Image
-                  src="/images/logo/logo-white.svg"
+                  src="/images/logo/logo.png"
                   alt="logo"
-                  width={140}
+                  width={240}
                   height={30}
                   className="max-w-full"
                 />
@@ -128,13 +128,8 @@ const Footer = () => {
               <div className="my-1 flex justify-center md:justify-end">
                 <p className="text-base text-gray-7">
                   Designed and Developed by{" "}
-                  <a
-                    href="https://tailgrids.com"
-                    rel="nofollow noopner noreferrer"
-                    target="_blank"
-                    className="text-gray-1 hover:underline"
-                  >
-                    TailGrids and Next.js Templates
+                  <a className="text-gray-1 hover:underline">
+                    Rudal Technology
                   </a>
                 </p>
               </div>
